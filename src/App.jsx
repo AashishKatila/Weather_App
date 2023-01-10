@@ -8,9 +8,7 @@ export default function App() {
   const [lat, setLat] = useState(null);
   const [long, setLong] = useState(null);
   const [data, setData] = useState([]);
-  const [main, setmain] = useState([]);
-  const [sys, setsys] = useState([]);
-  const [datacheck, setDataCheck] = useState([]);
+
   const fetchData = async () => {
     navigator.geolocation.getCurrentPosition(function(position) {
      setLat(position.coords.latitude);
@@ -39,7 +37,7 @@ export default function App() {
   return (
     <div className="App">
       {(typeof data.main != 'undefined')?(
-        <Weather weatherData={data} dats={datacheck} main={main} sys={sys}/>
+        <Weather weatherData={data}/>
       ):(
         <div>
           <Dimmer Active>

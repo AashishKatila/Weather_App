@@ -12,7 +12,7 @@
   border-radius: 20px 20px 0 0;
   display: flex;
   justify-content: space-between;
-  font-family: 'Recursive',sans-serif;
+  font-family:sans-serif;
 }
 .header{
   background-color: #424242;
@@ -20,7 +20,7 @@
   padding: 10px;
   font-size: 24px;
   border-radius: 15px;
-  font-family: 'Recursive',sans-serif;
+  font-family:sans-serif;
 }
 
 .day{
@@ -28,26 +28,26 @@
   padding: 15px;
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Recursive',sans-serif;
+  font-family:sans-serif;
 }
 
 .temperature{
   padding: 15px;
   color: #fff;
   font-size: 18px;
-  font-family: 'Recursive',sans-serif;
+  font-family:sans-serif;
 }
 .rise-set{
   padding: 15px;
   color: #fff;
-  font-family: 'Recursive',sans-serif;
+  font-family:sans-serif;
   font-size: 15px;
 }
 
 .description{
   padding: 15px;
   color: #fff;
-  font-family: 'Recursive',sans-serif;
+  font-family:sans-serif;
   font-size: 24px;
 }
 
